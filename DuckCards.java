@@ -168,7 +168,7 @@ public class DuckCards {
         frame.setVisible(true);
 
         //start the game
-        hideDuckTimer = new Timer(3000, new ActionListener() { //set timer
+        hideDuckTimer = new Timer(2000, new ActionListener() { //set timer
             @Override
             public void actionPerformed(ActionEvent e){
                 hideDucks();
